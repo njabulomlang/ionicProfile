@@ -1,0 +1,41 @@
+page-about {
+
+ion-content{
+  .flex-container {
+    display: flex;
+    //background-color: DodgerBlue;
+    flex-direction: column;
+  }
+
+  .flex-container > div {
+    //background-color: #c0c0c0;
+   // margin: 10px;
+    width: 100%;
+
+    //padding: 20px;
+   // font-size: 30px;
+   //height: 50vh;
+
+
+  }
+
+  .likes{
+    display: flex;
+    flex-direction: row;
+   // background-color: bisque;
+   // padding: 20px;
+
+  }
+  .likes>div{
+    background-color: rgb(188, 191, 241);
+    //padding: 10px;
+     margin: 0px 10px 10px 10px;
+     flex: 1;
+     text-align: center;
+     color: rgb(24, 23, 88);
+     font-size: 10px;
+     height: 25px;
+     width:10%;
+  }
+}
+}

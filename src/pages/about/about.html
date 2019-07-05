@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar  color="primary">
+    <ion-title>
+      Profile
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="flex-container">
+    <div class="profile"><img src="../../assets/imgs/woman.png" height="350" width="100%"> </div>
+
+    <div class="likes">
+      <div ion-button (click)="likePic()">Likes &nbsp; <ion-icon name="thumbs-up"></ion-icon>&nbsp;{{like}}</div>
+      <div ion-button>Comment&nbsp; <ion-icon name="chatboxes"></ion-icon></div>
+      <div ion-button>Share&nbsp;  <ion-icon ios="ios-share-alt" md="md-share-alt"></ion-icon> </div>
+
+    </div>
+
+    <div>
+        <ion-item>
+            <ion-icon name="logo-twitter" item-start></ion-icon>
+            Followers
+            <ion-badge item-end>260k</ion-badge>
+          </ion-item>
+          <ion-item>
+              <ion-icon name="logo-facebook" item-start></ion-icon>
+              Followers
+              <ion-badge item-end>170k</ion-badge>
+            </ion-item>
+            <ion-item>
+                <ion-icon name="logo-linkedin" item-start></ion-icon>
+                Followers
+                <ion-badge item-end>60k</ion-badge>
+              </ion-item>
+    </div>
+  </div>
+
+</ion-content>
